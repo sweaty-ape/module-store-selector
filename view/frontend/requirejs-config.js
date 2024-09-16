@@ -7,7 +7,9 @@ var config = {
     },
     config: {
         mixins: {
-            'Magento_InventoryInStorePickupFrontend/js/view/store-selector': 'SweatyApe_StoreSelector/js/view/store-selector'
+            'Magento_InventoryInStorePickupFrontend/js/view/store-selector': {
+                'SweatyApe_StoreSelector/js/view/store-selector': true
+            }
         }
     }
 };
