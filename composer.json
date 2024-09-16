@@ -1,0 +1,14 @@
+{
+    "name": "sweaty-ape/module-store-selector",
+    "description": "Relocates stores from modal popup to store selector in checkout",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SweatyApe\\StoreSelector\\": ""
+        }
+    }
+}
